@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/css/main.css">
+  <script src="https://cdn.jsdelivr.net/gh/inklife/pixelvoyager/pixelvoyager.js"></script>
+  <script src="../assets/js/main.js" defer></script>
+  <title>Minecraft инструкция</title>
+</head>
+<body>
+
+<main class="main cont">
+  <h1>Minecraft инструкция как играть локально</h1>
+
+  <br>
+
+  <section class="section" style="border: 3px solid red; padding: .5em; font-weight: bold;">
+    Алгоритм кратко:
+    <ol>
+      <li>Установить что-то</li>
+      <li>Удостовериться в том-то</li>
+    </ol>
+  </section>
+
+  <h1>Алгоритм подробнее</h1>
+
+  <section class="section">
+    <h2>Уровень 1</h2>
+    <details>
+      <summary>Ответ:</summary>
+      <a class="pixel-voyager-link" href="img/1.png">
+        <img src="img/1.png" style="width: 500px;">
+      </a>
+    </details>
+  </section>
+
+  <section class="section">
+    <h2>Уровень 2</h2>
+    <p>
+      На этом уровне надо <b>руками печатать</b> команды.
+    </p>
+    <p>
+      Конкретнее, нужно напечатать команду: <code>cannon(<i>угол</i>, <i>расстояние</i>)</code>, где:<br>
+      <i>угол</i> -- это угол стрельбы. Угол стрельбы уточки определяется такими координатами:<br>
+      <img src="img/ugol.png" style="width: 300px;"><br>
+      <i>расстояние</i> -- это расстояние стрельбы
+    </p>
+  </section>
+
+  <section class="section">
+    <h2>Уровень 3</h2>
+      <details>
+        <summary>Ответ:</summary>
+        <a class="pixel-voyager-link" href="img/3.png">
+          <img src="img/3.png" style="width: 500px;">
+        </a>
+      </details>
+  </section>
+
+  <section class="section">
+    <h2>Уровень 4</h2>
+    <p><b>Перепечатай структуру</b> из ответа Уровня 3, но поменяй значения -- <code>cannon(<i>угол тут поменяй</i>, <i>расстояние тут поменяй</i>)</code></p>
+  </section>
+
+  <section class="section">
+    <h2>Уровень 5</h2>
+    <p>Начни с этой конструкции:</p>
+    <a class="pixel-voyager-link" href="img/5-2.png">
+      <img src="img/5-2.png" style="width: 500px;">
+    </a>
+  </section>
+
+  <section class="section">
+    <h2>Уровень 6</h2>
+    <p>Начни с этой конструкции:</p>
+    <pre>
+  while (true) {
+    cannon(угол, расстояние) 
+  }
+    </pre>
+    , где:<br>
+    <i>угол</i> -- это угол стрельбы. Угол стрельбы уточки определяется такими координатами:<br>
+    <img src="img/ugol.png" style="width: 300px;"><br>
+    <i>расстояние</i> -- это расстояние стрельбы.<br>
+    <code class="b">scan(0)</code> -- расстояние можно автоматически вычислять используя эту команду
+  </section>
+
+  <section class="section">
+    <h2>Уровень 8</h2>
+    <p>Один из способов прохождения:</p>
+    <pre class="b" style="background-color: rgb(154, 20, 20); display: inline-block; color: white; padding-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; margin-top: 0;">
+Плыть и столкнуться с уточкой-противником</pre>
+    <p>Для этого можно использовать <code class="b">swim(угол, <b class="u" style="font-size: 1.5em;">скорость</b>)</code></p>
+  </section>
+
+  <section class="section">
+    <h2>Уровень 9</h2>
+    <p>Начни с этой конструкции (нажми на синюю шестерёнку, перетащи "если" вправо, закрой шестерёнку):</p>
+    <a class="pixel-voyager-link" href="img/9-1.png">
+      <img src="img/9-1.png" style="width: 500px;">
+    </a>
+    <p>Нажми на кнопку "Справка" сверху справа и почитай подсказку.</p>
+    <p>И дальше тебе понадобятся такие команды: <code class="b">swim, stop, cannon, scan</code></p>
+  </section>
+
+  <section class="section">
+    <h2>Уровень 10</h2>
+    <p>Начни с этой конструкции:</p>
+    <pre>
+  while (true) {
+    if (scan(какой-то угол) < 70) {
+    
+    } else {
+    
+    }
+  }
+    </pre>
+    , где угол:<br>
+    <img src="img/ugol.png" style="width: 300px;"><br>
+    <p>И дальше тебе понадобятся такие команды: <code class="b">swim, stop, cannon, scan</code></p>
+  </section>
+</main>
+  
+</body>
+</html>
